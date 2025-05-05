@@ -1,0 +1,89 @@
+{
+  "name": "pinchbus_alive_villages:village_med/streets",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/corner_01",
+        "processors": "minecraft:street_plains",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village_med/streets/straight_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village_med/streets/straight_02",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village_med/streets/straight_03",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village_med/streets/straight_04",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village_med/streets/straight_05",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village_med/streets/crossroad_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village_med/streets/crossroad_02",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village_med/streets/turn_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "pinchbus_alive_villages:village_med/terminators"
+}

@@ -1,18 +1,22 @@
+
 {
-  "placement": {
-    "type": "minecraft:random_spread",
-    "salt": 190076232,
-    "separation": 8,
-    "spacing": 24,
-    "spread_type": "triangular"
-  },
-  "structures": [
-    {
-      "structure": "pinchbus_alive_villages:village_med",
-      "weight": 1
-    }
-  ]
+"placement": {
+"type": "minecraft:random_spread",
+"salt": 19421220,
+"separation": 8,
+"spacing": 34,
+"spread_type": "triangular",
+"exclusion_zone": {
+"other_set": "minecraft:villages",
+"chunk_count": 8
 }
+},
+"structures": [{
+"structure": "pinchbus_alive_villages:village_med",
+"weight": 1
+}]
+}
+
 
 
 
