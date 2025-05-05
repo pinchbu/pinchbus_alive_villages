@@ -1,14 +1,23 @@
 {
+  "name": "pinchbus_alive_villages:med/town_centers",
   "elements": [
-
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "pinchbus_alive_villages:village/med/town_centers/plains_meeting_point_1",
-        "processors": "minecraft:empty",
+        "location": "pinchbus_alive_villages:village/med/town_centers/med_meeting_point",
+        "processors": "minecraft:mossify_20_percent",
         "projection": "rigid"
       },
-      "weight": 100
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/town_centers/med_meeting_point_no",
+        "processors": "minecraft:mossify_20_percent",
+        "projection": "rigid"
+      },
+      "weight": 1
     }
     ],
   "fallback": "minecraft:empty"

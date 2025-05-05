@@ -1,11 +1,12 @@
 {
+    "name": "pinchbus_alive_villages:med/terminators",
     "elements": [
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "pinchbus_alive_villages:village/med/terminators/terminator_01",
-                "processors": "pinchbus_alive_villages:street_med",
-                "projection": "terrain_matching"
+                "processors": "minecraft:street_plains",
+                "projection": "rigid"
             },
             "weight": 4
         },
@@ -13,8 +14,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "pinchbus_alive_villages:village/med/terminators/terminator_02",
-                "processors": "pinchbus_alive_villages:street_med",
-                "projection": "terrain_matching"
+                "processors": "minecraft:street_plains",
+                "projection": "rigid"
             },
             "weight": 9
         },
@@ -22,8 +23,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "pinchbus_alive_villages:village/med/terminators/terminator_03",
-                "processors": "pinchbus_alive_villages:street_med",
-                "projection": "terrain_matching"
+                "processors": "minecraft:street_plains",
+                "projection": "rigid"
             },
             "weight": 3
         },
@@ -31,8 +32,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "pinchbus_alive_villages:village/med/terminators/terminator_04",
-                "processors": "pinchbus_alive_villages:street_med",
-                "projection": "terrain_matching"
+                "processors": "minecraft:street_plains",
+                "projection": "rigid"
             },
             "weight": 1
         }
