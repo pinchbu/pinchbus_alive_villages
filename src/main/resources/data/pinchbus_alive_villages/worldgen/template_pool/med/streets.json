@@ -1,0 +1,88 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/corner_01",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/straight_01",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/straight_02",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/straight_03",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/straight_04",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/straight_05",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 3
+    },
+
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/crossroad_01",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/crossroad_02",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pinchbus_alive_villages:village/med/streets/turn_01",
+        "processors": "pinchbus_alive_villages:street_med",
+        "projection": "terrain_matching"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "minecraft:village/plains/terminators"
+}
